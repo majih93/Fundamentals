@@ -11,6 +11,7 @@
 		023AA6C4293F7F4F006D0CDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023AA6C3293F7F4F006D0CDF /* ContentView.swift */; };
 		023AA6C6293F7F50006D0CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023AA6C5293F7F50006D0CDF /* Assets.xcassets */; };
 		023AA6C9293F7F50006D0CDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023AA6C8293F7F50006D0CDF /* Preview Assets.xcassets */; };
+		023AA6D0293F7FAC006D0CDF /* Learn+Frames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023AA6CF293F7FAC006D0CDF /* Learn+Frames.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		023AA6C3293F7F4F006D0CDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		023AA6C5293F7F50006D0CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		023AA6C8293F7F50006D0CDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		023AA6CF293F7FAC006D0CDF /* Learn+Frames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Learn+Frames.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				023AA6C1293F7F4F006D0CDF /* FundamentalsApp.swift */,
 				023AA6C3293F7F4F006D0CDF /* ContentView.swift */,
+				023AA6CF293F7FAC006D0CDF /* Learn+Frames.swift */,
 				023AA6C5293F7F50006D0CDF /* Assets.xcassets */,
 				023AA6C7293F7F50006D0CDF /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				023AA6C4293F7F4F006D0CDF /* ContentView.swift in Sources */,
+				023AA6D0293F7FAC006D0CDF /* Learn+Frames.swift in Sources */,
 				023AA6C2293F7F4F006D0CDF /* FundamentalsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +279,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +309,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
